@@ -1,0 +1,25 @@
+export const PUBLIC_ROUTES = [
+  "/",
+  // "/account/login",
+  "/account/sign-up",
+  "/account/verify-email",
+  "/account/reset-password",
+  "/account/passwrodless-signup",
+  "/account/forgot-password",
+  "/account/confirmation-email",
+  "/account/validate-2fa",
+  "/account/check-email",
+];
+export const PRIVATE_ROUTES = [
+  "/dashboard",
+  "/tokens",
+  "/nft",
+  "/wallet",
+  "/dapps",
+  "/settings",
+  "/staking-rewards",
+  "/defi",
+  "/swap",
+  "/bridge",
+  "/contact-book",
+];

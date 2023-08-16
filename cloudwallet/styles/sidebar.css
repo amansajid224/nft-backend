@@ -1,0 +1,23 @@
+.link {
+  font-size: 16px;
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  width: 100%;
+}
+.active,
+.link:hover {
+  background: #241446;
+  color: #9fc131;
+  border: 1px solid #3b2864;
+}
+.disabled-dapps{
+  color: #707070;
+  cursor: not-allowed;
+  pointer-events: none;
+  text-decoration: none;
+}
+

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="Group_24639" data-name="Group 24639" transform="translate(-985 -108)">
+    <g id="Rectangle_11363" data-name="Rectangle 11363" transform="translate(985 108)" fill="none" stroke="#9fc131" strokeWidth="1">
+      <rect width="40" height="40" rx="6" stroke="none"/>
+      <rect x="0.5" y="0.5" width="39" height="39" rx="5.5" fill="none"/>
+    </g>
+    <path id="Union_179" data-name="Union 179" d="M12449.361,4831.74,12441,4824l8.359-7.737a1.015,1.015,0,0,1,1.357,0,.841.841,0,0,1,0,1.257L12444.8,4823h16.2a1,1,0,0,1,0,2h-16.2l5.921,5.482a.842.842,0,0,1,0,1.257,1.017,1.017,0,0,1-1.357,0Z" transform="translate(-11446.004 -4696.002)" fill="#9fc131"/>
+  </g>
+</svg>

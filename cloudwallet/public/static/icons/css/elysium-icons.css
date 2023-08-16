@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'elysium-icons';
+  src: url('../font/elysium-icons.eot?6375677');
+  src: url('../font/elysium-icons.eot?6375677#iefix') format('embedded-opentype'),
+       url('../font/elysium-icons.woff2?6375677') format('woff2'),
+       url('../font/elysium-icons.woff?6375677') format('woff'),
+       url('../font/elysium-icons.ttf?6375677') format('truetype'),
+       url('../font/elysium-icons.svg?6375677#elysium-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'elysium-icons';
+    src: url('../font/elysium-icons.svg?6375677#elysium-icons') format('svg');
+  }
+}
+*/
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "elysium-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-contact:before { content: '\e800'; } /* '' */
+.icon-defi:before { content: '\e801'; } /* '' */
+.icon-bridge:before { content: '\e802'; } /* '' */
+.icon-swap:before { content: '\e803'; } /* '' */
+.icon-rewards:before { content: '\e804'; } /* '' */
+.icon-dapps:before { content: '\e805'; } /* '' */
+.icon-nft:before { content: '\e806'; } /* '' */
+.icon-token:before { content: '\e807'; } /* '' */
+.icon-wallet:before { content: '\e808'; } /* '' */
+.icon-dashboard:before { content: '\e809'; } /* '' */
+.icon-logout:before { content: '\e80a'; } /* '' */
+.icon-gear:before { content: '\e80b'; } /* '' */
+.icon-dial-pad:before { content: '\e80c'; } /* '' */
+.icon-wallet-close:before { content: '\e80d'; } /* '' */
+.icon-facuet:before { content: '\e80e'; } /* '' */
+.icon-swap-single-arrow:before { content: '\e810'; } /* '' */
+.icon-bridge-curved:before { content: '\e811'; } /* '' */
+.icon-barcode-scanner:before { content: '\e812'; } /* '' */
+.icon-shuttle-outline:before { content: '\e813'; } /* '' */
+.icon-shop:before { content: '\e814'; } /* '' */
+.icon-website:before { content: '\e815'; } /* '' */
